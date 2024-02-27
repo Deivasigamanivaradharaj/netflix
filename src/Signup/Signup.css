@@ -1,0 +1,475 @@
+.signupcontainer{
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.signupcontainer .header{
+    height: 90px;
+    width: 94%;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 3%;
+}
+.signupcontainer .header h3{
+    color: black;
+}
+
+.signupcontainer .registration{ 
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 450px;
+    width: 340px;
+}
+.signupcontainer .registration *{
+    color: black;
+} 
+.signupcontainer .registration img{
+    width: 100%;
+} 
+.signupcontainer .registration h1{
+    text-align: center;
+} 
+.signupcontainer .registration .textcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+} 
+.signupcontainer .registration a{
+    width: 100%;
+}
+.signupcontainer .registration button{
+    margin-top: 24px;
+    width: 100%;
+    height: 65px;
+    width: 100%;
+    border: none;
+    background: red;
+    border-radius: 4px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+} 
+
+.signupcontainer .regform{ 
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 390px;
+    width: 440px;
+}
+.signupcontainer .regform *{
+    color: black;
+} 
+.signupcontainer .regform img{
+    width: 100%;
+} 
+.signupcontainer .regform h1{
+    font-size: 32px;
+    font-weight: 500;
+} 
+.signupcontainer .regform .textcontent{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+} 
+.signupcontainer .regform a{
+    width: 100%;
+}
+.signupcontainer .regform button{
+    margin-top: 24px;
+    width: 100%;
+    height: 65px;
+    width: 100%;
+    border: none;
+    background: red;
+    border-radius: 4px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+} 
+
+.signupcontainer .regform form .input-group{
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    vertical-align: text-top;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+}
+.signupcontainer .regform form .input-group label{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    z-index: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition-property: top, font-size, line-height;
+    transition-duration: 250ms;
+    pointer-events: none;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    left: 1rem;
+    right: 1rem;
+    top: 1rem;
+}
+.signupcontainer .regform form .input-group input{
+    line-height: 1.5;
+    font-size: 1rem;
+    width: 100%;
+    padding: 1.5rem 1rem 0.5rem;
+    min-height: 16px;
+    min-width: 16px;
+    appearance: none;
+    background: transparent;
+    background-clip: padding-box;
+    margin: 0;
+    color: black;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: .25rem;
+    outline: none;
+}
+.signupcontainer .regform form .input-group input::placeholder{
+    opacity: 0;
+}
+.signupcontainer .regform form .input-group .validationmsg
+{
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.53846;
+    color: rgb(235, 57, 66);
+    display: none;
+}
+.signupcontainer .regform form .input-group .validationmsg svg,.signupcontainer .regform form .input-group .validationmsg svg path
+{
+    margin-right: 0.25rem;
+    position: relative;
+    top: 0.25rem;
+    width: 16;
+    height: 16;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.53846;
+    color: rgb(235, 57, 66);
+}
+.signupcontainer .regform form .input-group input:focus + label
+{
+    top: .5rem;
+    font-size: .75rem;
+}
+.signupcontainer .regform form .input-group input:invalid + label{
+    top: .5rem;
+    font-size: .75rem;
+}
+.signupcontainer .regform form .input-group input:not(:placeholder-shown) + label{
+    top: .5rem;
+    font-size: .75rem;
+}
+
+.signupcontainer .chooseplan{ 
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 450px;
+    width: 340px;
+    margin: 100px 0;
+}
+.signupcontainer .chooseplan *{
+    color: black;
+} 
+.signupcontainer .chooseplan svg{
+    height: 50px;
+    width: 50px;
+} 
+.signupcontainer .chooseplan svg path{
+    color: red;
+} 
+.signupcontainer .chooseplan h1{
+    color: #333;
+    text-align: center;
+    margin: 0;
+} 
+.signupcontainer .chooseplan .checklist{
+    display: flex;  
+    font-size: 18px;
+    gap: 10px;
+    width: 300px;
+}
+.signupcontainer .chooseplan .checklist svg{
+    height: 26px;
+    width: 26px
+} 
+.signupcontainer .chooseplan a{
+    width: 100%;
+}
+.signupcontainer .chooseplan button{
+    margin-top: 24px;
+    width: 100%;
+    height: 65px;
+    width: 100%;
+    border: none;
+    background: red;
+    border-radius: 4px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+} 
+
+
+.signupcontainer .planform{ 
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1200px;
+}
+.signupcontainer .planform *{
+    color: black;
+} 
+.signupcontainer .planform img{
+    width: 100%;
+} 
+.signupcontainer .planform h1{
+    text-align: center;
+} 
+.signupcontainer .planform .packages{
+    display: flex;
+    gap: 15px;
+    height: 616px;
+    width: 100%;
+} 
+.signupcontainer .planform .packages .package-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 292px;
+    cursor: pointer;
+    border-radius: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    transition: margin 250ms ease-in-out 0s, box-shadow 250ms ease-in-out 0s, border-color 250ms ease-in-out 0s;
+}
+.signupcontainer .planform .packages .package-container .package-name{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    min-height: 83px;
+    padding: 10px 16px;
+    background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(229, 9, 20) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);
+}
+.signupcontainer .planform .packages .package-container .package-name span{
+    color: white;
+    font-weight: 700;
+}
+.signupcontainer .planform .packages .package-container .package-name .selected{
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    cursor: initial;
+    border-style: none;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.4);
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    animation: 250ms ease-out 0s 1 normal forwards running grow;
+} 
+.signupcontainer .planform .packages .package-container .package-name .selected svg path{
+    color: white;
+} 
+.signupcontainer .planform a{
+    width: 440px;
+}
+.signupcontainer .planform .packages .package-container .package-details{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 25px;
+    gap: 12px;
+}
+.signupcontainer .planform .packages .package-container .package-details .detail-group{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
+.signupcontainer .planform .packages .package-container .package-details .last{
+    border: none;
+}
+.signupcontainer .planform .packages .package-container .package-details .detail-group .label{
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.53846;
+    color: rgb(118, 118, 118);
+}
+.signupcontainer .planform .packages .package-container .package-details .detail-group .value{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.7);
+}
+.signupcontainer .planform  p{
+    color: #737373;
+    display: block;
+    font-size: 13px;
+    padding: 0 16px;
+}
+.signupcontainer .planform .packages .active{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 10px 0px;
+}
+
+.signupcontainer .planform button{
+    margin-top: 24px;
+    width: 100%;
+    height: 65px;
+    width: 100%;
+    border: none;
+    background: red;
+    border-radius: 4px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+} 
+
+.signupcontainer .paymentpicker{ 
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 450px;
+    width: 500px;
+    margin: 100px 0;
+}
+.signupcontainer .paymentpicker *{
+    color: black;
+} 
+.signupcontainer .paymentpicker svg{
+    height: 50px;
+    width: 50px;
+} 
+.signupcontainer .paymentpicker svg path{
+    color: red;
+} 
+.signupcontainer .paymentpicker h1{
+    color: #333;
+    text-align: center;
+    margin: 0;
+} 
+.signupcontainer .paymentpicker span{
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;    
+    color: #333;
+}
+.signupcontainer .paymentpicker .dark{
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+.signupcontainer .paymentpicker button{
+    align-items: center;
+    display: flex;
+    height: auto;
+    min-height: 60px;
+    text-decoration: none;
+    line-height: 60px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    transition: position .5s ease-in;
+    width: 100%;
+    font-weight: 600;
+    font-size: 15px;
+} 
+.signupcontainer .paymentpicker button svg{
+    height: 24px;
+    width: 24px;
+} 
+.signupcontainer .paymentpicker button svg path{
+    color: black;
+} 
+
+
+
+
+
+.signupcontainer footer{
+    margin-top: 7px;
+    padding: 1.5rem 0px;
+    width: 100%;
+    background: white;
+    color: #737373;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #e6e6e6;
+}
+.signupcontainer footer .container{
+    height: 100%;
+    width: 100%;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.signupcontainer footer .container .telephone{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #737373;
+}
+.signupcontainer footer .container .telephone a{
+    color: inherit;
+}
+.signupcontainer footer .container .links{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #737373;
+    display: flex;
+    justify-content: space-between;
+}
+.signupcontainer footer .container .links .link-container{
+    width: 20%;
+    margin-bottom: 1rem;
+    color: #737373;
+    display: flex;
+    flex-direction: column;
+}
+.signupcontainer footer .container .links .link-container a{
+    color: #737373;
+    margin-bottom: 1rem;
+}

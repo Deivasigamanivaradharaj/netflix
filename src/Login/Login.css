@@ -1,0 +1,310 @@
+*{
+    color: white;
+}
+.login{
+    background: url(../../public/hero1.jpg);
+    background-size: fill;
+    min-height: 100vh;
+    width: 100%;
+}
+.login .container{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 300px black;
+}
+.login .container .header{
+    display: flex;
+    height: 80px;
+    padding: 5px 20%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.login .container .loginbox{
+    margin: 0 auto;
+    margin-bottom: 75px;
+    padding: 0 5%;
+    width: 450px;
+    max-width: 450px;
+    overflow: hidden;
+}
+.login .container .loginbox .box{
+
+    padding: 48px 68px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 4px ;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.login .container .loginbox .box form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.login .container .loginbox .box form .input-group{
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    vertical-align: text-top;
+    color: white;
+    width: 100%;
+}
+.login .container .loginbox .box form .input-group label{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    z-index: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition-property: top, font-size, line-height;
+    transition-duration: 250ms;
+    pointer-events: none;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    left: 1rem;
+    right: 1rem;
+    top: 1rem;
+}
+.login .container .loginbox .box form .input-group input{
+    line-height: 1.5;
+    font-size: 1rem;
+    width: 100%;
+    padding: 1.5rem 1rem 0.5rem;
+    min-height: 16px;
+    min-width: 16px;
+    appearance: none;
+    background: transparent;
+    background-clip: padding-box;
+    margin: 0;
+    color: white;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: .25rem;
+}
+.login .container .loginbox .box form .input-group .validationmsg
+{
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.53846;
+    color: rgb(235, 57, 66);
+    display: none;
+}
+.login .container .loginbox .box form .input-group .validationmsg svg,.login .container .loginbox .box form .input-group .validationmsg svg path
+{
+    margin-right: 0.25rem;
+    position: relative;
+    top: 0.25rem;
+    width: 16;
+    height: 16;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.53846;
+    color: rgb(235, 57, 66);
+}
+.login .container .loginbox .box form .input-group input:focus + label
+{
+    top: .5rem;
+    font-size: .75rem;
+}
+.login .container .loginbox .box form .input-group input:invalid + label{
+    top: .5rem;
+    font-size: .75rem;
+}
+.login .container .loginbox .box form .input-group .signinbtn, .login .container .loginbox .box form .input-group .sendsignincodebtn{
+    background: red;
+    display: flex;
+    border: none;
+    border-radius: .25rem;
+    width: 100%;
+    padding: 16px 16px;
+    justify-content: center;
+    letter-spacing: normal;
+    line-height: 1;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.login .container .loginbox .box form .input-group .signincode{
+    background: rgba(128,128,128,0.4);
+    display: flex;
+    border: none;
+    border-radius: .25rem;
+    width: 100%;
+    padding: 16px 16px;
+    justify-content: center;
+    letter-spacing: normal;
+    line-height: 1;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.otherlink{
+    display: flex;
+    flex-direction: column;
+}
+.login .container .loginbox .box form .checkbox-group{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+.login .container .loginbox .box form .link-group{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+.captcha{
+    color: #8c8c8c;
+    font-size: 13px;
+    height: 40px;
+}
+
+footer{
+    margin-top: 7px;
+    padding: 4.5rem 0px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .container{
+    height: 100%;
+    width: 100%;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+footer .container .telephone{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+footer .container .telephone a{
+    color: inherit;
+}
+footer .container .links{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: space-between;
+}
+footer .container .links .link-container{
+    width: 20%;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+footer .container .links .link-container a{
+    color: inherit;
+    margin-bottom: 1rem;
+}
+footer .container select{
+    /* height: 32px; */
+    color: white;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-weight: 600;
+    /* width: 77px; */
+    padding:6px 14px;
+    font-size: 0.875rem;
+    width: fit-content;
+}
+footer .container select option{
+    /* height: 32px; */
+    color: black;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-weight: 600;
+    /* width: 77px; */
+    padding:6px 14px;
+    font-size: 0.875rem;
+}
+.LoginHelp{
+    background: url(../../public/loginhelphero.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+.LoginHelp .container{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 300px black;
+}
+.LoginHelp .container .header{
+    display: flex;
+    height: 80px;
+    width: 90%;
+    padding: 5px 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.LoginHelp .container .header h3{
+    text-decoration: none;
+    color: red;
+}
+.LoginHelp .container .box{
+    max-width: 400px;
+    color: black;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: .25rem;
+    width: fit-content;
+    padding: 2rem;
+}
+.LoginHelp .container .box h1, .LoginHelp .container .box p, .LoginHelp .container .box label{
+    color: black;
+    padding: 5px;
+}
+.radio-group{
+    display: flex;
+    align-items: flex-start;
+}
+.radio-group input{
+    height: 25px;
+    width: 25px;
+}
+.LoginHelp .container .box input{
+    height: 22px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding: 10px 11px;
+    outline: none;
+}
+.LoginHelp .container .box button{
+    font-size: 20px;
+    padding: 14px 2em;
+    height: 48px;
+    margin: 0.5em 0 0.5em 0;
+    background: #0080ff;
+    border: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.LoginHelp .container .box a{
+    color: #0080ff;
+}
+.LoginHelp .container .captcha{
+    max-width: 400px;
+}
+

@@ -1,0 +1,511 @@
+.hero-1{
+    background: url(../../public/hero1.jpg);
+    background-position: center;
+    background-size:130%;
+    height: 700px;
+    width: 100%;
+}
+.hero-1-container{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 0 300px black;
+}
+.hero-1-container .header{
+    display: flex;
+    height: 80px;
+    padding: 5px 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-1-container .header img{
+    height: 40px;
+    width: 148px;
+}
+.hero-1-container .header .rightmenu{
+    display: flex;
+    gap: 30px;
+}
+.hero-1-container .header button{
+    /* height: 32px; */
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    /* width: 77px; */
+    padding:8px 14px;
+    font-size: 0.875rem;
+}
+.hero-1-container .header select{
+    /* height: 32px; */
+    color: white;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-weight: 600;
+    /* width: 77px; */
+    padding:6px 14px;
+    font-size: 0.875rem;
+}
+.hero-1-container .header select option{
+    /* height: 32px; */
+    color: black;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-weight: 600;
+    /* width: 77px; */
+    padding:6px 14px;
+    font-size: 0.875rem;
+}
+.hero-1-container .header button:hover{
+    background: #c70101;
+    cursor: pointer;
+}
+.hero-1-container .hero-1-banner{
+    margin-top: 11rem;
+    width: 100%;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-1-container .hero-1-banner .line-1{
+    font-size: 3.1rem;
+    font-weight: 900;
+}
+.hero-1-container .hero-1-banner .line-2{
+    font-size: 1.4rem;
+}
+.getstartedcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.readyques{
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+.getstarted{
+    display: flex;
+    gap: 10px;
+    height: 56px;
+    width: 586px;
+}
+.getstarted input{
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 0px 20px;
+    width: 60%;
+    color: white;
+    outline: none;
+}
+.getstarted input::placeholder{
+    color: #ddd;
+    font-size: 1rem;
+}
+.getstarted button{
+    background: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 0px 20px;
+    width: 40%;
+}
+.getstartedcontainer span{
+    width: 577px;
+    padding: 5px;
+    color: red;
+    display: none;
+}
+.getstartedcontainer span svg{
+    margin-right: 0.25rem;
+    position: relative;
+    top: 0.25rem;
+    width: 16;
+    height: 16;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.53846;
+    color: rgb(235, 57, 66);
+}
+.getstartedcontainer span svg path{
+    color: red;
+}
+
+.home-section-2{
+    margin-top: 7px;
+    padding: 4.5rem 0px;
+    height: 450px;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-section-2 .container{
+    height: 100%;
+    max-width: 63%;
+    display: flex;
+}
+.home-section-2 .banner{
+    /* margin-left: 300px;     */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.home-section-2 .banner .line-1{
+    font-size: 3.1rem;
+    font-weight: 900;
+}
+.home-section-2 .banner .line-2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.home-section-2 .tv{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.home-section-2 .tv video{
+    position: absolute;
+    z-index: 0;
+    width: 480px;
+    height: 270px;
+}
+.home-section-2 .tv img{
+    position: relative;
+    width: 625px;
+    height: 469px;
+}
+
+.home-section-3{
+    margin-top: 7px;
+    padding: 4.5rem 0px;
+    height: 450px;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-section-3 .container{
+    height: 100%;
+    width: 63%;
+    display: flex;
+}
+.home-section-3 .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap:15px
+}
+.home-section-3 .banner .line-1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.home-section-3 .banner .line-2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.home-section-3 .phone{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.home-section-3 .phone #pngimage{
+    position: absolute;
+    height: 405px;
+    width: 575px;
+}
+.home-section-3 .phone .downloading{
+    z-index: 2;
+    top: 30%;
+    position: relative;
+    background-color: black;
+    display: flex;
+    height: 84px;
+    width: 50%;
+    border: 2px solid rgba(128,128,128,0.7);
+    border-radius: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+.home-section-3 .phone .downloading img{
+    height: 100%;
+}
+.home-section-3 .phone .downloading .std{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 7%;
+}
+.home-section-3 .phone .downloading .std .st{
+    font-weight: 600;
+}
+.home-section-3 .phone .downloading .std .d{
+    color: #0071eb;
+    font-size: 14px
+}
+.home-section-3 .phone .downloading .downloadgif{
+    height: 48px;
+    width: 48px;
+}
+
+.home-section-4{
+    margin-top: 7px;
+    padding: 4.5rem 0px;
+    height: 450px;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-section-4 .container{
+    height: 100%;
+    width: 63%;
+    display: flex;
+}
+.home-section-4 .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 15px;
+}
+.home-section-4 .banner .line-1{
+    font-size: 3.1rem;
+    font-weight: 900;
+}
+.home-section-4 .banner .line-2{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.home-section-4 .pc{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.home-section-4 .pc video{
+    position: relative;
+    top: -70px;
+    width: 400px;
+    height: 270px;
+}
+.home-section-4 .pc img{
+    position: absolute;
+    z-index: 2;
+    width: 635px;
+    height: 475px;
+}
+
+.home-section-5{
+    margin-top: 7px;
+    padding: 4.5rem 0px;
+    height: 450px;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-section-5 .container{
+    height: 100%;
+    width: 63%;
+    display: flex;
+}
+.home-section-5 .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap:15px
+}
+.home-section-5 .banner .line-1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.home-section-5 .banner .line-2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.home-section-5 .children{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.home-section-5 .children img{
+    width: 100%;
+}
+
+.faq{
+    margin-top: 7px;
+    padding: 4.5rem 0px;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faq .container{
+    height: 100%;
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq .container h2{
+    font-size: 3.1rem;
+    font-weight: 900;
+    margin: 0;
+}
+.faq .container .faq-list{
+    width: 100%;
+}
+.faq .container .faq-list ul{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 100%;
+    padding: 0px;
+}
+.faq .container .faq-list ul li{
+    list-style: none;
+    margin-bottom: .5rem;
+}
+.faq .container .faq-list ul li h3{
+    display: flex;
+    margin: 0px;
+    margin-bottom: .0625rem;
+    position: relative;
+    background: rgb(45,45,45);
+    color: white;
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51,1);
+}
+.faq .container .faq-list ul li h3:hover{
+    background: rgb(73, 73, 73);
+}
+.faq .container .faq-list ul li h3 button{
+    padding: 1.5rem;
+    width: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    color: white;
+    font-size: inherit;
+}
+.faq .container .faq-list ul li h3 button svg{
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+.faq .container .faq-list ul li .answer{
+    max-height: 0;
+    padding: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    overflow: hidden;
+    visibility: collapse;
+    transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    text-align: left;
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+}
+
+.footer{
+    margin-top: 7px;
+    padding: 4.5rem 0px;
+    height: 270px;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .container{
+    height: 100%;
+    width: 100%;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.footer .container .telephone{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer .container .telephone a{
+    color: inherit;
+}
+.footer .container .links{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container .links .link-container{
+    width: 20%;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+.footer .container .links .link-container a{
+    color: inherit;
+    margin-bottom: 1rem;
+}
+.footer .container select{
+    /* height: 32px; */
+    color: white;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-weight: 600;
+    /* width: 77px; */
+    padding:6px 14px;
+    font-size: 0.875rem;
+    width: fit-content;
+}
+.footer .container select option{
+    /* height: 32px; */
+    color: black;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-weight: 600;
+    /* width: 77px; */
+    padding:6px 14px;
+    font-size: 0.875rem;
+}
