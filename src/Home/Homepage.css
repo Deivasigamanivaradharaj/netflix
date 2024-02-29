@@ -1,4 +1,154 @@
 .HomePageContainer{
-    height: 100vh; 
     width: 100%;
+    background: black;
+}
+.head{
+    display: flex;
+    height: 80px;
+    padding: 5px 5%;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+}
+.head img{
+    height: 100%;
+    width: 148px;
+}
+.home-image{
+    margin: 0px 20px;
+    background-image: url(/public/homeassests/hoome.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(100% - 40px);
+    height: 80vh;
+    border-radius: 20px;
+    position: relative;
+    filter: brightness();
+}
+.home-image-text{
+    color: aliceblue;
+    position: relative;
+    width: 30%;
+    top: 50%;
+    left: 3em;
+    z-index: 1;
+}
+.money{
+    width: 100%;
+    height: auto;
+}
+.play-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    width: fit-content;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+.play-button p{
+    margin: 0;
+    font-weight: 600;
+}
+.play-button img{
+    width: 25px;
+    height: 25px;
+}
+
+.original{
+    color: aliceblue;
+    padding-left: 0px;
+    margin: 0px 20px;
+    margin-top: 30px;
+
+}
+.original h3{
+    font-size: 30px;
+}
+.original .no-title{
+    padding-left: 20px;
+    color: #fff;
+    line-height: 1px;
+    font-weight: 5px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.original .no{
+    display: flex;
+    padding-top: 2px;
+    margin-left: 0px;
+    margin-bottom: -50px;
+    overflow-x: auto;
+    padding: 20px 0px;
+}
+
+.original .no img{
+    width: 260px;
+    height: 380px;
+    margin:3px;
+    margin-left: 8px;
+    border-radius: 10px;
+
+}
+.original .no img:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(70%);
+}
+html{
+    overflow:scroll;
+    overflow-x:hidden;
+}
+::-webkit-scrollbar{
+    width: 2px;
+    background: transparent;
+}
+
+.small{
+    color: aliceblue;
+    padding-left: 0px;
+    margin: 0px 20px;
+    margin-top: 40px;
+
+}
+.small h3{
+    font-size: 30px;
+}
+.small .no-title{
+    padding-left: 10px;
+    color: #fff;
+    line-height: 1px;
+    font-weight: 5px;
+    margin-bottom: 20px;
+
+}
+.small .no{
+    display: flex;
+    padding-top: 2px;
+    margin-left: 0px;
+    margin-bottom: -50px;
+    overflow-x: auto;   
+    padding: 20px 0px;
+}
+
+.small .no img{
+    width: 160px;
+    height: 280px;
+    margin:3px;
+    margin-left: 8px;
+    border-radius: 10px;
+
+}
+.small .no img:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(70%);
 }
