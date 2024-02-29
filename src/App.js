@@ -9,6 +9,7 @@ import RegForm from './Signup/RegForm';
 import ChoosePlan from './Signup/ChoosePlan';
 import PlanForm from './Signup/PlanForm';
 import PaymentPicker from './Signup/PaymentPicker';
+import HomePage from './Home/Homepage';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='planform' element={<PlanForm></PlanForm>}></Route>
           <Route path='paymentPicker' element={<PaymentPicker></PaymentPicker>}></Route>
         </Route>
+        <Route path='home' element={<HomePage></HomePage>}></Route>
       </Routes>
     </div>
   );

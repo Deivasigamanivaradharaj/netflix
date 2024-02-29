@@ -394,7 +394,11 @@
     font-size: 18px;
     
 }
-
+.signupcontainer .paymentpicker a{
+    height: auto;
+    min-height: 60px;
+    width: 100%;
+}
 .signupcontainer .paymentpicker button{
     align-items: center;
     display: flex;

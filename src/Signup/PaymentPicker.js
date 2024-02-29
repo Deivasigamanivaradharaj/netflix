@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLock, faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 function PaymentPicker() {
   return (
@@ -12,14 +13,15 @@ function PaymentPicker() {
       <span>payment method at anytime.</span>
       <div className='dark'>Secure for peace of mind.</div>
       <div className='dark'>Cancel easily online.</div>
-      <button>
+      <Link to={'../../home'}><button>
         <div>Credit or Debit Card</div>
         <FontAwesomeIcon icon={faAngleRight} />
-      </button>
-      <button>
+      </button></Link>
+      <Link to={'../../home'}><button>
         <div>UPI Autopay</div>
         <FontAwesomeIcon icon={faAngleRight} />
-      </button>
+      </button></Link>
+      
     </div>
   )
 }
